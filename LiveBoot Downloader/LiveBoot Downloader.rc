@@ -1,0 +1,237 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_DOWNLOAD DIALOGEX 0, 0, 336, 210
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",PBS_SMOOTH,41,118,259,19
+    LTEXT           "1%",IDC_STATIC_PROGRESS_VALUE,267,152,23,19
+    PUSHBUTTON      "Install Now",IDC_INSTALL,110,54,105,31
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_DOWNLOAD, DIALOG
+    BEGIN
+        RIGHTMARGIN, 328
+        TOPMARGIN, 7
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_LIVEBOOTDOWNLOADER  ICON                    "LiveBoot Downloader.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_BK              PNG                     "bk.png"
+IDB_PNG_BK_EMPTY        PNG                     "empty_bk.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,1,0
+ PRODUCTVERSION 1,0,1,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Wondershare"
+            VALUE "FileDescription", "Wondershare WAC Downloader"
+            VALUE "FileVersion", "1.0.1.0"
+            VALUE "InternalName", "WAC Downloader"
+            VALUE "LegalCopyright", "Copyright 2011 Wondershare Corporation"
+            VALUE "OriginalFilename", "WAC Downloader.exe"
+            VALUE "ProductName", "WAC Downloader"
+            VALUE "ProductVersion", "1.0.1.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_LIVEBOOTDOWNLOADER ACCELERATORS
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_Download_MD5         "87c405fa5ec8ec5872f4033f5a290d40"
+    ID_Download_URL         "http://download.anypdftools.com/anybizsoft-pdf-converter_full524.exe"
+    ID_Download_Default_SaveName "WACSetup.exe"
+    ID_TEXT_lang_DownLoadDlg_btn_install "Install Now"
+    IDS_STRING108           "Please select the save path."
+END
+
+STRINGTABLE
+BEGIN
+    ID_TEXT_lang_Window_title "Wondershare WAC Downloader"
+    ID_TEXT_lang_MainDlg_text 
+                            "Welcome to Wondershare WAC Downloader, this utility will help you download the Wondershare WAC setup file to your computer. It can help you finish the corrupted download no matter you cancel the progress or stopped by the network problem."
+    ID_TEXT_lang_MainDlg_static_savepath "Save Path:"
+    ID_TEXT_lang_MainDlg_btn_browse "Browse..."
+    ID_TEXT_lang_MainDlg_btn_download "Download"
+    ID_TEXT_lang_MainDlg_btn_cancel "Cancel"
+    ID_TEXT_lang_DownLoadDlg_text 
+                            "Welcome to Wondershare WAC Downloader, this utility will help you download the Wondershare WAC setup file to your computer. It can help you finish the corrupted download no matter you cancel the progress or stopped by the network problem."
+    ID_TEXT_lang_DownLoadDlg_static_speed "Speed:"
+    ID_TEXT_lang_DownLoadDlg_static_lefttime "Remaining Time:"
+    ID_TEXT_lang_DownLoadDlg_static_filesize "Total Size:"
+    ID_TEXT_lang_DownLoadDlg_static_downloadedsize "Downloaded:"
+    ID_TEXT_lang_DownLoadDlg_btn_min "Minimize to the tray"
+    ID_TEXT_lang_DownLoadDlg_btn_cancel "Cancel"
+    ID_MSG_lang_QUIT_while_downloading 
+                            "Are you sure to stop downloading and quit the application?"
+    ID_MSG_lang_QUIT_while_not_downloading 
+                            "Are you sure you want to quit the application?"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MSG_lang_Create_Folder 
+                            "The specified folder does not exist, do you want to create it?"
+    ID_MSG_lang_Create_Folder_Failed "Cannot create the folder !"
+    ID_MSG_lang_Download_Complete 
+                            "Download completed successfully, start setup now?"
+    ID_MSG_lang_Download_Failed "Download failed, please try again!"
+    ID_MSG_lang_App_Init_Failed "Init failed!"
+    ID_MSG_lang_LastDownload_LaunchApp 
+                            "You have already downloaded the latest version, do you want to start the installation?"
+    ID_MSG_lang_LastDownload_Detect 
+                            "There is an unfinished task. Do you want to continue?"
+    ID_MSG_lang_Tray_msg    "Downloading, Click to view the progress."
+    ID_MSG_lang_Download_md5_check_Failed 
+                            "File download or verify failed, please download the setup file again!"
+    ID_TEXT_lang_Browse_dialog_title "Please select the save path."
+    ID_MSG_lang_Download_disk_space_not_enough 
+                            "disk space is not enough, please check and try again."
+    ID_MSG_lang_Input_folder_invalid 
+                            "Illegal route, please specify a valid path."
+    ID_MSG_lang_Download_network_connect_Failed 
+                            "Server connecting failed, please check your network and try again!"
+    ID_WAC_MD5              "4C5A992163C1B7BA50770E96A8CB21B9"
+    ID_WAC_URL              "http://download.wondershare.com/video-converter-ultimate_full495.exe"
+    ID_WAC_SAVEFILENAME     "video-converter.exe"
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
